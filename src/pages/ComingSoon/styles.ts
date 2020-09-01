@@ -1,6 +1,7 @@
+import { Platform } from 'react-native';
 import styled from 'styled-components/native';
 import Constants from 'expo-constants';
-import { Platform, SafeAreaView } from 'react-native';
+
 import colors from '../../styles/colors';
 
 const statusBarHeight = 
@@ -8,12 +9,13 @@ const statusBarHeight =
 
 
 export const Wrapper = styled.SafeAreaView`
-    background: ${colors.primary};
+    background: ${colors.primary}; 
     flex: 1;
     padding-top: ${statusBarHeight + 'px'};
-    justify-content: center;
 
-`;  
+    justify-content: center;
+    align-items: center;
+`;
 
 export const Heading = styled.Text`
     color: ${colors.purple};

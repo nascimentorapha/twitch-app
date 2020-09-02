@@ -1,9 +1,13 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
+import colors from '../../styles/colors'
 
+export const Container = styled.View`
+    padding-top: 10px 0 20px;
 `;
 
 export const HeadingText = styled.View`
-
+    color: ${colors.black};
+    font-family: roboto_700;
+    font-size: 30px;
 `;

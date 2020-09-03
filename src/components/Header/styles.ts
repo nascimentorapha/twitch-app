@@ -12,9 +12,7 @@ export const Container = styled.View`
 
 `;
 
-export const Avatar = styled.TouchableOpacity`
-    background: ${color.tag};
-
+export const Avatar = styled.Image`
     width: 32px;
     height: 32px;
     border-radius: 16px;

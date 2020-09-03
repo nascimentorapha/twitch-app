@@ -5,6 +5,8 @@ import Header from '../../components/Header';
 import Heading from '../../components/Heading';
 import Title from '../../components/Title';
 import CategoryList from '../../components/CategoryList';
+import StreamList from '../../components/StreamList';
+import ChannelList from '../../components/ChannelList';
 
 import { Wrapper, Container, Main } from './styles';
 
@@ -15,7 +17,6 @@ interface Item {
 }
 
 const Following: React.FC = () => {
-  console.log("cheguei aqui");
   const { data, indices } = React.useMemo(() => {
     const items: Item[] = [
       {
@@ -35,21 +36,21 @@ const Following: React.FC = () => {
         render: () => <Title>Live Channels</Title>,
         isTitle: true,
       },
-      { key: 'C2', render: () => <View /> },
+      { key: 'C2', render: () => <StreamList /> },
       
       {
         key: 'CONTINUE_WATCHING',
         render: () => <Title>Continue Watching</Title>,
         isTitle: true,
       },
-      { key: 'C3', render: () => <View /> },
+      { key: 'C3', render: () => <StreamList /> },
       
       {
         key: 'OFFLINE_CHANNELS',
         render: () => <Title>Offline Channels</Title>,
         isTitle: true,
       },
-      { key: 'C4', render: () => <View /> },
+      { key: 'C4', render: () => <ChannelList /> },
     ];
 
     //Array que contém apenas os indices dos elementos que são títulos
@@ -61,9 +62,7 @@ const Following: React.FC = () => {
       data: items,
       indices,
     }
-  }, [])
-
-  console.log("cheguei aqui 2");
+  }, []);
 
   return (
     <Wrapper>

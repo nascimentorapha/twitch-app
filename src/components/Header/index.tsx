@@ -4,11 +4,13 @@ import { MaterialIcons, MaterialCommunityIcons, Feather } from '@expo/vector-ico
 import { Container, Avatar, OnlineStatus, RightSide, Button } from './styles';
 import colors from '../../styles/colors';
 
+import avatar from '../../images/avatar.jpg';
+
 const Header: React.FC = () => {
   return (
     <Container>
-      <Avatar>
-        <OnlineStatus />        
+      <Avatar source={avatar}>
+        {/* <OnlineStatus />         */}
       </Avatar>
 
       <RightSide>

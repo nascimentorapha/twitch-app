@@ -1,12 +1,11 @@
 <p align="center"><img src=".github/twitch_folder.png"/></p>
-<div class="header" style="display:flex; flex-direction:row; align-items: center; justify-content: center">
-    <img src="https://image.flaticon.com/icons/svg/2111/2111668.svg" width="50" height="50"/>
-    <h1 style="margin-left: 20px">Twitch</h1>
+<div display="flex" flex-direction="row" align-items= "center" justify-content= "center">
+    <h1 margin-left="200" align-items="center" justify-content="center"><img width="50" height="50" src="https://image.flaticon.com/icons/svg/2111/2111668.svg"/>     Twitch</h1>
 </div>
 
 > App UI clone to study React Native functionalities
 
-<p align="center"><img src=".github/twitch_preview.gif?raw=true"/></p>
+<p align="center"><img src=".github/twitch_preview.gif?raw=true" height="600"/></p>
 
 
 ---

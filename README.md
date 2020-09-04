@@ -24,7 +24,7 @@
 ## :scroll: Resume
 
 Hi, I'm Raphael Nascimento and that's my Twitch app clone, it is under [MIT](#memo-license) license. Feel free to clone and upgrade by your own. 
-I would love to [connect with you](#large_blue_diamond-contact), lets grow together!
+I would love to [connect with you](https://www.linkedin.com/in/nascimento-rapha), lets grow together!
 
 
 ---

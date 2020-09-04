@@ -1,6 +1,6 @@
 <p align="center"><img src=".github/twitch_folder.png"/></p>
 <div display="flex" flex-direction="row" align-items= "center" justify-content= "center">
-    <h1 margin-left="200" align-items="center" justify-content="center"><img width="50" height="50" src="https://image.flaticon.com/icons/svg/2111/2111668.svg"/>     Twitch</h1>
+    <h1 margin-left="200" align-items="center" justify-content="center"><img width="50" height="40" src="https://image.flaticon.com/icons/svg/2111/2111668.svg"/>     Twitch</h1>
 </div>
 
 > App UI clone to study React Native functionalities
@@ -76,7 +76,7 @@ Feel free to **file a new issue** with a respective title and description on the
 ---
 
 ## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/nascimentorapha/winterwarm/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/nascimentorapha/twitch-app/blob/master/LICENSE) for more information.
 
 ---
 

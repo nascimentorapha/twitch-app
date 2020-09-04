@@ -1,6 +1,6 @@
 <p align="center"><img src=".github/twitch_folder.png"/></p>
 <div class="header" style="display:flex; flex-direction:row; align-items: center; justify-content: center">
-    <img src="https://image.flaticon.com/icons/svg/2111/2111668.svg" style="width: 50px;"/>
+    <img src="https://image.flaticon.com/icons/svg/2111/2111668.svg" width="50" height="50"/>
     <h1 style="margin-left: 20px">Twitch</h1>
 </div>
 
